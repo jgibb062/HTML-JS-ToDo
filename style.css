@@ -1,0 +1,43 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+}
+
+h1 {
+    font-style: italic;
+    color: crimson;
+    text-align: center;
+}
+
+.todo-container {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 5px double #ccc;
+    border-radius: 10px;
+}
+
+.todo-input {
+    width: 50%;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.todo-item input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.todo-item span {
+    flex-grow: 1;
+}
+
+.todo-item button {
+    color: white;
+    padding: 10px;
+    background-color: black;
+    cursor: pointer;
+    border: none;
+}
