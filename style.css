@@ -1,6 +1,6 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    /* background-color: burlywood; */
+    counter-reset: section;
 }
 
 h1 {
@@ -19,7 +19,7 @@ h1 {
 }
 
 .todo-input {
-    width: 50%;
+    width: 70%;
 }
 
 .todo-item {
@@ -36,6 +36,11 @@ h1 {
     color: white;
     font-size: large;
 }
+.todo-item::before {
+    counter-increment: section;
+    content: "Item " counter(section) ": ";
+    color: white;
+}
 
 .todo-item button {
     color: white;
@@ -50,6 +55,7 @@ button {
     border: none;
     border-radius: 5px;
     padding: 2% 5%;
+    margin-right: 2%;
     text-decoration: underline;
     font-size: 16px;
     transition-duration: 0.4s;

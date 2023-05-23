@@ -17,7 +17,6 @@ function createTodoItem (text) {
     let deleteButton = document.createElement('button');
     deleteButton.textContent = 'Delete';
     
-
     todoItem.appendChild(checkbox);
     todoItem.appendChild(span);
     todoItem.appendChild(deleteButton);
@@ -67,4 +66,3 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
-
