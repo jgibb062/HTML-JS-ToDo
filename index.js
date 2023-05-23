@@ -4,6 +4,7 @@ const todoList = document.querySelector('.todo-list')
 
 //Create a new to-do item
 function createTodoItem (text) {
+    //Create the necessary Element
     let todoItem = document.createElement('div');
     todoItem.classList.add('todo-item');
 

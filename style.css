@@ -45,8 +45,16 @@ h1 {
     border: none;
 }
 button {
+    color: white;
     background-color: blueviolet;
     border: none;
     border-radius: 5px;
-    padding: 2%;
+    padding: 2% 5%;
+    text-decoration: underline;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background-color: white;
+    color: black;
 }
