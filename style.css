@@ -41,7 +41,6 @@ h1 {
     content: "Item " counter(section) ": ";
     color: white;
 }
-
 .todo-item button {
     color: white;
     padding: 10px;

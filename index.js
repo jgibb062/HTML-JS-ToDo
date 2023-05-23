@@ -54,15 +54,17 @@ document.addEventListener('DOMContentLoaded', function () {
     document.querySelector('.todo-container').prepend(addButton);
 
     //Event listener for the input field when Enter is pressed
-    todoInput.addEventListener('keypress', function(e) {
-        if (e.key === 'Enter') {
+    todoInput.addEventListener('keypress', function(eve) {
+        if (eve.key === 'Enter') {
             handleAddTodo();
         }
     });
+
     //Event Listener for the todo list to handle delete button clicks
-    todoList.addEventListener('click', function (e) {
-        if (e.target.tagName === 'BUTTON') {
-            handleDeleteTodo.call(e.target);
+    todoList.addEventListener('click', function (eve) {
+        if (eve.target.tagName === 'BUTTON') {
+            handleDeleteTodo.call(eve.target);
         }
     });
+    
 });
