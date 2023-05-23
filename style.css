@@ -1,12 +1,13 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: burlywood;
+    /* background-color: burlywood; */
 }
 
 h1 {
     font-style: italic;
-    color: crimson;
+    color: white;
     text-align: center;
+    text-decoration: underline;
 }
 
 .todo-container {
@@ -32,6 +33,8 @@ h1 {
 
 .todo-item span {
     flex-grow: 1;
+    color: white;
+    font-size: large;
 }
 
 .todo-item button {
@@ -40,4 +43,10 @@ h1 {
     background-color: black;
     cursor: pointer;
     border: none;
+}
+button {
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 2%;
 }

@@ -46,6 +46,7 @@ function handleDeleteTodo() {
 
 //Event listener
 document.addEventListener('DOMContentLoaded', function () {
+    document.body.style.backgroundImage = "url('background-img.jpg')";
     //Create add button
     let addButton = document.createElement ('button');
     addButton.textContent = 'Add';
