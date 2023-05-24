@@ -2,14 +2,12 @@ body {
     font-family: 'Times New Roman', Times, serif;
     counter-reset: section;
 }
-
 h1 {
     font-style: italic;
     color: white;
     text-align: center;
     text-decoration: underline;
 }
-
 .todo-container {
     max-width: 400px;
     margin: 30px auto;
@@ -17,11 +15,9 @@ h1 {
     border: 5px double #ccc;
     border-radius: 10px;
 }
-
 .todo-input {
     width: 70%;
 }
-
 .todo-item {
     display: flex;
     align-items: center;
@@ -30,7 +26,6 @@ h1 {
 .todo-item input[type="checkbox"] {
     margin-right: 5px;
 }
-
 .todo-item span {
     flex-grow: 1;
     color: white;
